@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "open sans", Sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+  background: url(https://www.investintech.com/resources/blog/wp-content/uploads/2018/02/To-Do-List.png) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  background-color: #0ABDE3;
+  min-height: 750px;
+  width: 450px;
+  margin: 70px auto;
+}
+
+#to-do-form input{
+  background-color: #FF1493;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #535C68;
+}
+
+#to-do-form input::placeholder{
+color: #535C68
+}
+
+#to-do-form input:focus, #to-do-form button:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height:45px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #F3B431;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
